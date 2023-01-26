@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<!-- saved from url=(0169)file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#general -->
+<html lang="en" style="height: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>WebSite</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./WebSite_files/bootstrap.min.css">
+  <script src="./WebSite_files/jquery.slim.min.js.descarga"></script>
+  <script src="./WebSite_files/popper.min.js.descarga"></script>
+  <script src="./WebSite_files/bootstrap.bundle.min.js.descarga"></script>
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="./WebSite_files/css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./WebSite_files/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="./WebSite_files/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="./WebSite_files/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="./WebSite_files/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="./WebSite_files/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="./WebSite_files/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="./WebSite_files/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="./WebSite_files/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="./WebSite_files/summernote-bs4.min.css">
+</head>
+<body style="height: auto;">
+
+    <!--BARRA DE NAVEGACIÓN-->
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#general"><b>WebSite</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#general"><b>General</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#estanque1"><b>Estanque 1</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#estanque2"><b>Estanque 2</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#estanque3"><b>Estanque 3</b></a>
+                    </li>    
+                </ul>
+            </div>
+        </div>  
+      </nav>
+      <br>
+
+
+<!--CONTENIDO DENTRO DE CADA PESTAÑA (GENERAL, ESTANQUE1...)-->
+<div class="tab-content">
+    <div id="general" class="container tab-pane active"><br><br>
+        <!--INFORMACIÓN GENERAL DEL ESTANQUE 1-->
+        <div class="mt-1 p-2 bg-primary text-white rounded">
+            <h3 align="center">Estanque 1</h3>
+        </div>
+        <br>
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--GRAFICO DE OXIGENO DISULETO-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Oxígeno Disuelto</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--GRAFICO DE PH-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Grado de Acidez (pH)</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--GRAFICO DE CONDUCTIVIDAD-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Conductividad</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--GRAFICO DE TEMPERATURA-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Temperatura</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--GRAFICO DE LINEAS-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Monthly Recap Report</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="text-center">
+                                            <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
+                                        </p>
+                                    </div>
+                                    <div class="chart-container">
+                                        <canvas id="mychart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--INFORMACIÓN GENERAL DEL ESTANQUE 2-->
+        <div class="mt-1 p-2 bg-primary text-white rounded">
+            <h3 align="center">Estanque 2</h3>
+        </div>
+        <br>
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--GRAFICO DE OXIGENO DISULETO-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Oxígeno Disuelto</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--GRAFICO DE PH-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Grado de Acidez (pH)</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--GRAFICO DE CONDUCTIVIDAD-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Conductividad</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--GRAFICO DE TEMPERATURA-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Temperatura</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--GRAFICO DE LINEAS-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Monthly Recap Report</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="text-center">
+                                            <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
+                                        </p>
+                                    </div>
+                                    <div class="chart-container">
+                                        <canvas id="mychart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--INFORMACIÓN GENERAL DEL ESTANQUE 3-->
+        <div class="mt-1 p-2 bg-primary text-white rounded">
+            <h3 align="center">Estanque 3</h3>
+        </div>
+        <br>
+        <section class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--GRAFICO DE OXIGENO DISULETO-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Oxígeno Disuelto</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--GRAFICO DE PH-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Grado de Acidez (pH)</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--GRAFICO DE CONDUCTIVIDAD-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Conductividad</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--GRAFICO DE TEMPERATURA-->
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                            <div class="info-box-content">
+                                <span class="info-box-text">Temperatura</span>
+                                <span class="info-box-number">Número</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--GRAFICO DE LINEAS-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Monthly Recap Report</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="text-center">
+                                            <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
+                                        </p>
+                                    </div>
+                                    <div class="chart-container">
+                                        <canvas id="mychart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <div id="estanque1" class="container tab-pane fade"><br>
+        <section class="content">
+            <div class="container">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#datos_estanque1"><b>Datos</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#cultivo_estanque1"><b>Cultivo</b></a>
+                  </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div id="datos_estanque1" class="container tab-pane active"><br>
+                   
+                    <section class="content">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!--GRAFICO DE OXIGENO DISULETO-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Oxígeno Disuelto</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--GRAFICO DE PH-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Grado de Acidez (pH)</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--GRAFICO DE CONDUCTIVIDAD-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Conductividad</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--GRAFICO DE TEMPERATURA-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Temperatura</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--GRAFICO DE LINEAS-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="card-title">Monthly Recap Report</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="text-center">
+                                                        <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
+                                                    </p>
+                                                </div>
+                                                <div class="chart-container">
+                                                    <canvas id="mychart"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                  </div>
+                  <div id="cultivo_estanque1" class="container tab-pane fade"><br>
+                    <form>
+                        <div class="card card-outline card-primary">
+                            <div class="card-header">
+                              <h3 class="card-title"><b>Formulario</b></h3>
+                              <div class="card-tools">
+                                <span class="badge badge-primary">:)</span>
+                              </div>
+                            </div>
+                            <div class="card-body">
+                              
+                          </div>
+                    
+                  </div></form>
+                </div>
+              </div>
+        </div></section>
+    </div>
+    <div id="estanque2" class="container tab-pane fade"><br>
+        <section class="content">
+            <div class="container">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#datos_estanque2"><b>Datos</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#cultivo_estanque2"><b>Cultivo</b></a>
+                  </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div id="datos_estanque2" class="container tab-pane active"><br>
+                    <section class="content">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!--GRAFICO DE OXIGENO DISULETO-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Oxígeno Disuelto</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--GRAFICO DE PH-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Grado de Acidez (pH)</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--GRAFICO DE CONDUCTIVIDAD-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Conductividad</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--GRAFICO DE TEMPERATURA-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Temperatura</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--GRAFICO DE LINEAS-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="card-title">Monthly Recap Report</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="text-center">
+                                                        <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
+                                                    </p>
+                                                </div>
+                                                <div class="chart-container">
+                                                    <canvas id="mychart"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                  </div>
+                  <div id="cultivo_estanque2" class="container tab-pane fade"><br>
+                    <h3>Menu 2</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </div>
+    <div id="estanque3" class="container tab-pane fade"><br>
+        <section class="content">
+            <div class="container">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#datos_estanque3"><b>Datos</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="file:///C:/Users/57301/OneDrive%20-%20Universidad%20de%20la%20Costa%20-%20CUC/2022-2/CUC/PROYECTO%20DE%20GRADO/VISUALIZACI%C3%93N/FULL%20CODE/index_proyecto.html#cultivo_estanque3"><b>Cultivo</b></a>
+                  </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div id="datos_estanque3" class="container tab-pane active"><br>
+                    <section class="content">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!--GRAFICO DE OXIGENO DISULETO-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Oxígeno Disuelto</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--GRAFICO DE PH-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Grado de Acidez (pH)</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--GRAFICO DE CONDUCTIVIDAD-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Conductividad</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--GRAFICO DE TEMPERATURA-->
+                                <div class="col-12 col-sm-6 col-md-3">
+                                    <div class="info-box">
+                                        <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-cog"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">Temperatura</span>
+                                            <span class="info-box-number">Número</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--GRAFICO DE LINEAS-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="card-title">Monthly Recap Report</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="text-center">
+                                                        <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
+                                                    </p>
+                                                </div>
+                                                <div class="chart-container">
+                                                    <canvas id="mychart"></canvas>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                  </div>
+                  <div id="cultivo_estanque3" class="container tab-pane fade"><br>
+                    <h3>Menu 3</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                </div>
+              </div>
+        </section>    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery -->
+<script src="./WebSite_files/jquery.min.js.descarga"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="./WebSite_files/jquery-ui.min.js.descarga"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- ChartJS -->
+<script src="./WebSite_files/Chart.min.js.descarga"></script>
+<!-- Sparkline -->
+<script src="./WebSite_files/sparkline.js.descarga"></script>
+<!-- JQVMap -->
+<script src="./WebSite_files/jquery.vmap.min.js.descarga"></script>
+<script src="./WebSite_files/jquery.vmap.usa.js.descarga"></script>
+<!-- jQuery Knob Chart -->
+<script src="./WebSite_files/jquery.knob.min.js.descarga"></script>
+<!-- daterangepicker -->
+<script src="./WebSite_files/moment.min.js.descarga"></script>
+<script src="./WebSite_files/daterangepicker.js.descarga"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="./WebSite_files/tempusdominus-bootstrap-4.min.js.descarga"></script>
+<!-- Summernote -->
+<script src="./WebSite_files/summernote-bs4.min.js.descarga"></script>
+<!-- overlayScrollbars -->
+<script src="./WebSite_files/jquery.overlayScrollbars.min.js.descarga"></script>
+<!-- AdminLTE App -->
+<script src="./WebSite_files/adminlte.js.descarga"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="./WebSite_files/demo.js.descarga"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="./WebSite_files/dashboard.js.descarga"></script>
+
+
+<div class="jqvmap-label" style="display: none;"></div></body></html>
